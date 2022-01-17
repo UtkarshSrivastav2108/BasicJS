@@ -1,11 +1,11 @@
 // setTimeOut
 
 
-var a = setTimeout(function xyz() {
-    console.log("skjdjh")
-    console.log(xyz);
+// var a = setTimeout(function xyz() {
+//     console.log("skjdjh")
+//     console.log(xyz);
 
-}, 3000);
+// }, 3000);
 
 // Increment, Decrement functions with Constructor
 
@@ -54,6 +54,7 @@ function changeColor() {
     document.getElementById("thirdDate").style.color = 'white';
     document.getElementById("thirdDate").style.border = 'none';
     document.getElementById("thirdDate").style.borderRadius = '10px';
+    document.getElementById("thirdDate").style.underline = "none";
 
 }
 
